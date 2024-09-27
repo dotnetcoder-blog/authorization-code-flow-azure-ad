@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dnc.Services.Employee", "Dnc.Services.Employee\Dnc.Services.Employee.csproj", "{3C886FB7-B79A-46FD-96D1-491FD0FA20AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C886FB7-B79A-46FD-96D1-491FD0FA20AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C886FB7-B79A-46FD-96D1-491FD0FA20AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C886FB7-B79A-46FD-96D1-491FD0FA20AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C886FB7-B79A-46FD-96D1-491FD0FA20AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {241E87CA-955D-40E1-83F6-C2052ED6AA59}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,45 @@
+﻿
+1-Create the dal lib
+
+navigate to the project folder and run the following command to install EF Core packages:
+
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add package Microsoft.EntityFrameworkCore.Design
+
+The first package is the database provider, which is used to connect the application to a SQL Server
+database. For this demo application, we will use LocalDB, which is a lightweight version of SQL Server.
+The second package contains shared design-time components for EF Core tools, which are required
+to perform database migrations.
+
+2-create models
+
+3-create Entity Type Configuration
+
+4-The final step for the Employee class is to add the EntityTypeConfiguration attribute
+
+5-Create AppDbContextFactory 
+     IDesignTimeDbContextFactory is used by the EF Core CLI tooling to create an instance of the derived DbContext class
+
+6-create the AppDbContext
+
+7- Add migrations and update databse 
+
+    //1- dotnet ef migrations add Initial -o Migrations -c Dnc.EMP.DAL.AppDbContext
+
+    //2- To confirm that the migration was created and is waiting to be applied, execute the list command
+    //dotnet ef migrations list -c Dnc.EMP.DAL.AppDbContext
+
+
+    //3-The easiest method of applying the migration to the database is to drop the database and re-create it. If that
+    //is an option, you can enter the following commands and move on to the next section:
+
+    //dotnet ef database drop -f 
+    dotnet ef database update Initial -c Dnc.EMP.DAL.AppDbContext
+
+
+8- Create Dnc.EMP.Services
+Reference Dal project
+Interfaces 
+Abstract
+
+

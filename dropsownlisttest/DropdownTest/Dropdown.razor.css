@@ -1,0 +1,25 @@
+﻿.bth-dropdown-area {
+    margin-bottom: -0.6rem;
+}
+
+    .bth-dropdown-area hr {
+        margin-top: -0.01rem;
+    }
+
+.bth-dropdown-area-text-arrow {
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.bth-dropdown-area-content {
+    margin-top: -0.8rem;
+    width: 100%;
+    padding: 1rem;
+    padding-top: 0.8rem;
+    margin-bottom: 1rem;
+    background-color: #f1f1f1;
+}
+
+.bth-dropdown-area-content-hidden {
+    display: none;
+}
